@@ -1148,6 +1148,7 @@
             "tab": "Evaluation",
             "pages": [
               "langsmith/evaluation",
+              "langsmith/engine-link",
               "langsmith/evaluation-quickstart",
               "langsmith/evaluation-concepts",
               "langsmith/evaluation-approaches",
@@ -1317,14 +1318,14 @@
                   "langsmith/dataset-json-types",
                   "langsmith/dataset-transformations"
                 ]
-              },
-              "langsmith/engine-link"
+              }
             ]
           },
           {
             "tab": "Prompt engineering",
             "pages": [
               "langsmith/prompt-engineering",
+              "langsmith/engine-link",
               "langsmith/prompt-engineering-quickstart",
               "langsmith/prompt-engineering-concepts",
               "langsmith/chat-prompt-engineering",
@@ -1356,8 +1357,7 @@
                   "langsmith/prompt-commit",
                   "langsmith/multiple-messages"
                 ]
-              },
-              "langsmith/engine-link"
+              }
             ]
           },
           {
@@ -1593,21 +1593,26 @@
         "description": "Trace, debug, and monitor agent performance",
         "tabs": [
           {
-            "tab": "Engine",
-            "pages": [
-              "langsmith/engine-overview",
-              "langsmith/engine",
-              "langsmith/engine-webhooks"
-            ]
-          },
-          {
-            "tab": "Trace",
+            "tab": "Overview",
             "pages": [
               "langsmith/observability",
               "langsmith/observability-quickstart",
               "langsmith/observability-concepts",
               "langsmith/observability-llm-tutorial",
               "langsmith/chat-observability",
+              {
+                "group": "Engine",
+                "pages": [
+                  "langsmith/engine-overview",
+                  "langsmith/engine",
+                  "langsmith/engine-webhooks"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Trace",
+            "pages": [
               {
                 "group": "Tracing setup",
                 "pages": [
