@@ -1596,10 +1596,7 @@
             "tab": "Overview",
             "pages": [
               "langsmith/observability",
-              "langsmith/observability-quickstart",
               "langsmith/observability-concepts",
-              "langsmith/observability-llm-tutorial",
-              "langsmith/chat-observability",
               {
                 "group": "Engine",
                 "pages": [
@@ -1613,6 +1610,9 @@
           {
             "tab": "Trace",
             "pages": [
+              "langsmith/observability-quickstart",
+              "langsmith/observability-llm-tutorial",
+              "langsmith/chat-observability",
               {
                 "group": "Tracing setup",
                 "pages": [
