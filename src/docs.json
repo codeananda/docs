@@ -1612,6 +1612,7 @@
             "pages": [
               "langsmith/observability-quickstart",
               "langsmith/observability-llm-tutorial",
+              "langsmith/engine-link",
               "langsmith/chat-observability",
               {
                 "group": "Tracing setup",
